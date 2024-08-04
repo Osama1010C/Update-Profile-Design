@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(248, 246, 246);
+}
+.profile_box{
+    width: 22%;
+    height: 50%;
+    background-color: white;
+    box-shadow: 0px 1px 3px 0px #00000040;
+    border: 0px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    
+}
+.image{
+    transform: translateY(25px);
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+}
+.image .user_image{
+    border-radius: 50%;
+}
+.name{
+    transform: translateY(25px);
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name .user_name{
+    font-weight: 400;
+    font-family: system-ui;
+}
+.update{
+    transform: translateY(50px);
+    background-color: #2196F3;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.update .update_profile{
+    width: 100%;
+}
+.update .update_profile a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.update:hover{
+    opacity: .9;
+}
+.logout{
+    transform: translateY(60px);
+    background-color: #F44336;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.logout .logout_profile{
+    width: 100%;
+}
+.logout .logout_profile a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.logout:hover{
+    opacity: .9;
+}
+.text_contain{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    transform: translateY(70px);
+    justify-content: center;
+    align-items: center;
+}
+.text_contain .text{
+    color: black;
+    letter-spacing: 1px;
+}
+.text_contain .text a{
+    color: #f44336b0;
+    text-decoration: none;
+    transition-duration: .2s;
+}
+.text_contain .text a:hover{
+    text-decoration: underline;
+    color: #F44336;
+}
